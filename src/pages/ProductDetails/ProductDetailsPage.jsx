@@ -76,7 +76,10 @@ export function ProductDetailsPage() {
               <img
                 src={product.image}
                 alt={product.name}
-                className="max-h-[380px] object-contain filter drop-shadow-2xl group-hover:scale-105 transition-transform duration-700"
+                onError={(e) => {
+                  e.currentTarget.src = '/images/products/tt-hinoki-pro.jpg';
+                }}
+                className="max-h-[380px] w-full object-cover rounded-2xl filter drop-shadow-2xl group-hover:scale-105 transition-transform duration-700"
               />
 
               <div className="absolute bottom-6 right-6">

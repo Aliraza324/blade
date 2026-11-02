@@ -180,7 +180,10 @@ export function ShopPage() {
                   <img
                     src={blade.image}
                     alt={blade.name}
-                    className="h-full object-contain filter drop-shadow-2xl group-hover:scale-105 transition-transform duration-500"
+                    onError={(e) => {
+                      e.currentTarget.src = '/images/products/tt-hinoki-pro.jpg';
+                    }}
+                    className="h-full w-full object-cover filter drop-shadow-2xl group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>
 

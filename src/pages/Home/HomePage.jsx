@@ -129,25 +129,29 @@ export function HomePage() {
                   </div>
                 </div>
 
-                {/* Center Visual Mockup of Paddle */}
-                <div className="relative flex-1 flex items-center justify-center my-6">
-                  <div className="relative w-64 h-80 rounded-2xl bg-[#D7A15C] shadow-2xl transform -rotate-12 group-hover:rotate-0 transition-transform duration-700 flex flex-col items-center justify-between p-6 border-4 border-amber-900/30 overflow-hidden">
-                    {/* Laser engraved monogram */}
-                    <div className="text-center mt-6">
-                      <span className="text-3xl font-black tracking-widest text-stone-900 block">TT</span>
-                      <span className="text-xs font-black tracking-wider text-stone-800">BLADE PRO</span>
-                      <span className="text-[9px] text-stone-700 font-mono block mt-1">KISO HINOKI VENEER</span>
-                    </div>
+                {/* Center Authentic Realistic Blade Visual */}
+                <Link
+                  to="/configurator"
+                  className="relative flex-1 flex items-center justify-center my-4 group/blade cursor-pointer overflow-hidden rounded-2xl"
+                >
+                  {/* Subtle red under-glow aura */}
+                  <div className="absolute bottom-2 w-56 h-12 bg-[#FF202D]/25 rounded-full blur-xl pointer-events-none" />
 
-                    {/* Flared Handle Graphic */}
-                    <div className="w-16 h-28 bg-[#382317] rounded-b-xl border-x-2 border-stone-950 flex flex-col items-center justify-end pb-2 relative shadow-lg">
-                      <div className="w-2 h-full bg-[#C49758]" />
-                      <div className="absolute bottom-2 w-10 h-3 rounded-sm bg-white/90 text-stone-900 text-[6px] font-black flex items-center justify-center">
-                        TT PRO
-                      </div>
-                    </div>
+                  <img
+                    src="/images/blade-hero.jpg"
+                    alt="TT Blade Pro Tournament Custom Blade"
+                    onError={(e) => {
+                      e.currentTarget.src = 'https://images.unsplash.com/photo-1784712130743-337f92c31b07?auto=format&fit=crop&w=1000&q=85';
+                    }}
+                    className="w-full h-full max-h-[340px] object-contain filter drop-shadow-[0_20px_40px_rgba(0,0,0,0.85)] group-hover/blade:scale-105 transition-transform duration-500"
+                  />
+
+                  {/* Floating quick 3D badge overlay on hover */}
+                  <div className="absolute bottom-4 px-3.5 py-1.5 rounded-full bg-black/80 backdrop-blur-md border border-white/20 text-xs font-semibold text-white opacity-0 group-hover/blade:opacity-100 transition-opacity flex items-center gap-1.5 shadow-xl">
+                    <Sliders className="w-3.5 h-3.5 text-[#FF202D]" />
+                    <span>Customize in 3D</span>
                   </div>
-                </div>
+                </Link>
 
                 {/* Bottom interactive launch button */}
                 <Link
@@ -202,7 +206,10 @@ export function HomePage() {
                   <img
                     src={blade.image}
                     alt={blade.name}
-                    className="h-full object-contain filter drop-shadow-2xl group-hover:scale-105 transition-transform duration-500"
+                    onError={(e) => {
+                      e.currentTarget.src = '/images/products/tt-hinoki-pro.jpg';
+                    }}
+                    className="h-full w-full object-cover filter drop-shadow-2xl group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>
 

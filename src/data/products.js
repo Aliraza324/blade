@@ -16,7 +16,7 @@ export const FEATURED_PRODUCTS = [
     stiffness: 'Medium-Flex',
     plies: '5-Ply Classic All-Wood',
     thickness: '5.9 mm',
-    image: 'https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1784712130743-337f92c31b07?auto=format&fit=crop&w=800&q=80',
     description: 'Our flagship custom tournament blade. Built with hand-selected Kiso Hinoki outer plies over a responsive Ayous core, combining explosive looping catapult with velvet ball feedback.',
     defaultConfig: {
       materialId: 'hinoki',
@@ -42,7 +42,7 @@ export const FEATURED_PRODUCTS = [
     stiffness: 'Stiff',
     plies: '5-Ply Carbon Composite',
     thickness: '5.8 mm',
-    image: 'https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1564518440696-ef272968778e?auto=format&fit=crop&w=800&q=80',
     description: 'Engineered for relentless two-wing offensive dominance. Dual high-density carbon fleece layers extend the sweet spot to the blade edges, keeping blocks lethal and trajectory low.',
     defaultConfig: {
       materialId: 'koto',
@@ -68,7 +68,7 @@ export const FEATURED_PRODUCTS = [
     stiffness: 'Hard',
     plies: '7-Ply Power Offensive',
     thickness: '6.4 mm',
-    image: 'https://images.unsplash.com/photo-1546484475-7f7bd55792da?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1685731911097-d18840e0f2e0?auto=format&fit=crop&w=800&q=80',
     description: 'Distinctive striped Zebrano hardwood outer veneers offer extraordinary acoustic feedback and formidable punch-block stability against heavy incoming topspin.',
     defaultConfig: {
       materialId: 'zebrano',
@@ -94,7 +94,7 @@ export const FEATURED_PRODUCTS = [
     stiffness: 'Flexible',
     plies: '5-Ply Classic All-Wood',
     thickness: '5.7 mm',
-    image: 'https://images.unsplash.com/photo-1520690214124-2405c5217036?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1784711772430-732b1163a9ea?auto=format&fit=crop&w=800&q=80',
     description: 'The spin lover’s ultimate instrument. Soft Limba veneers grip the ball on brush strokes, creating heavy curved arcs that dip viciously inside the endline.',
     defaultConfig: {
       materialId: 'limba',
@@ -120,7 +120,7 @@ export const FEATURED_PRODUCTS = [
     stiffness: 'Stiff',
     plies: '7-Ply Power Offensive',
     thickness: '6.2 mm',
-    image: 'https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1534158914592-062992fbe900?auto=format&fit=crop&w=800&q=80',
     description: 'Crafted with premium American Black Walnut. High surface density transfers pure kinetic energy on flat hits while providing rock-solid directional placement.',
     defaultConfig: {
       materialId: 'walnut',
@@ -146,7 +146,7 @@ export const FEATURED_PRODUCTS = [
     stiffness: 'Soft Flex',
     plies: '3-Ply Pure Wood',
     thickness: '5.5 mm',
-    image: 'https://images.unsplash.com/photo-1517646287270-a5a9ca602e5c?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1633976027967-49db0f2507f6?auto=format&fit=crop&w=800&q=80',
     description: 'Unrivaled control and maneuverability. Lightweight porous core provides maximum dwell time for placement perfection, short touch pushes, and precision blocking.',
     defaultConfig: {
       materialId: 'ayous',
