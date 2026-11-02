@@ -1,0 +1,161 @@
+export const BASE_BLADE_PRICE = 50.00;
+
+export const FEATURED_PRODUCTS = [
+  {
+    id: 'ttb-hinoki-pro',
+    name: 'TT Blade Pro - Hinoki Master',
+    subtitle: 'Signature Japanese Kiso Hinoki Offensive Blade',
+    badge: 'Best Seller',
+    rating: 4.9,
+    reviewCount: 148,
+    basePrice: 50,
+    configuredPrice: 73, // 50 base + 15 hinoki + 8 finish etc
+    weight: 92,
+    speed: 9.8,
+    control: 8.7,
+    stiffness: 'Medium-Flex',
+    plies: '5-Ply Classic All-Wood',
+    thickness: '5.9 mm',
+    image: 'https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?auto=format&fit=crop&w=800&q=80',
+    description: 'Our flagship custom tournament blade. Built with hand-selected Kiso Hinoki outer plies over a responsive Ayous core, combining explosive looping catapult with velvet ball feedback.',
+    defaultConfig: {
+      materialId: 'hinoki',
+      handleId: 'flared',
+      designId: 'classic',
+      colorId: 'natural',
+      layerId: '5-ply',
+      finishId: 'matte'
+    }
+  },
+  {
+    id: 'ttb-carbon-force',
+    name: 'TT Blade Pro - Carbon Force',
+    subtitle: 'Inner-Force Carbon Composite Powerhouse',
+    badge: 'Pro Choice',
+    rating: 4.8,
+    reviewCount: 96,
+    basePrice: 50,
+    configuredPrice: 93,
+    weight: 89,
+    speed: 10.0,
+    control: 8.2,
+    stiffness: 'Stiff',
+    plies: '5-Ply Carbon Composite',
+    thickness: '5.8 mm',
+    image: 'https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?auto=format&fit=crop&w=800&q=80',
+    description: 'Engineered for relentless two-wing offensive dominance. Dual high-density carbon fleece layers extend the sweet spot to the blade edges, keeping blocks lethal and trajectory low.',
+    defaultConfig: {
+      materialId: 'koto',
+      handleId: 'flared',
+      designId: 'carbon',
+      colorId: 'black',
+      layerId: '5-ply-carbon',
+      finishId: 'premium'
+    }
+  },
+  {
+    id: 'ttb-zebrano-attack',
+    name: 'TT Blade Pro - Zebrano Attack',
+    subtitle: 'Exotic African Hardwood Precision Weapon',
+    badge: 'Limited Edition',
+    rating: 4.9,
+    reviewCount: 72,
+    basePrice: 50,
+    configuredPrice: 98,
+    weight: 95,
+    speed: 9.6,
+    control: 8.0,
+    stiffness: 'Hard',
+    plies: '7-Ply Power Offensive',
+    thickness: '6.4 mm',
+    image: 'https://images.unsplash.com/photo-1546484475-7f7bd55792da?auto=format&fit=crop&w=800&q=80',
+    description: 'Distinctive striped Zebrano hardwood outer veneers offer extraordinary acoustic feedback and formidable punch-block stability against heavy incoming topspin.',
+    defaultConfig: {
+      materialId: 'zebrano',
+      handleId: 'anatomic',
+      designId: 'wave',
+      colorId: 'natural',
+      layerId: '7-ply',
+      finishId: 'glossy'
+    }
+  },
+  {
+    id: 'ttb-limba-pure',
+    name: 'TT Blade Pro - Limba Touch',
+    subtitle: 'European Classical Spin-Generating Blade',
+    badge: 'Spin Master',
+    rating: 4.7,
+    reviewCount: 112,
+    basePrice: 50,
+    configuredPrice: 65,
+    weight: 86,
+    speed: 8.5,
+    control: 9.4,
+    stiffness: 'Flexible',
+    plies: '5-Ply Classic All-Wood',
+    thickness: '5.7 mm',
+    image: 'https://images.unsplash.com/photo-1520690214124-2405c5217036?auto=format&fit=crop&w=800&q=80',
+    description: 'The spin lover’s ultimate instrument. Soft Limba veneers grip the ball on brush strokes, creating heavy curved arcs that dip viciously inside the endline.',
+    defaultConfig: {
+      materialId: 'limba',
+      handleId: 'straight',
+      designId: 'minimal',
+      colorId: 'light-brown',
+      layerId: '5-ply',
+      finishId: 'natural'
+    }
+  },
+  {
+    id: 'ttb-walnut-power',
+    name: 'TT Blade Pro - Walnut Dominance',
+    subtitle: 'Dense American Walnut Counter-Attack Specialist',
+    badge: 'Heavy Hitter',
+    rating: 4.8,
+    reviewCount: 64,
+    basePrice: 50,
+    configuredPrice: 88,
+    weight: 94,
+    speed: 9.3,
+    control: 8.5,
+    stiffness: 'Stiff',
+    plies: '7-Ply Power Offensive',
+    thickness: '6.2 mm',
+    image: 'https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=800&q=80',
+    description: 'Crafted with premium American Black Walnut. High surface density transfers pure kinetic energy on flat hits while providing rock-solid directional placement.',
+    defaultConfig: {
+      materialId: 'walnut',
+      handleId: 'flared',
+      designId: 'classic',
+      colorId: 'dark-walnut',
+      layerId: '7-ply',
+      finishId: 'matte'
+    }
+  },
+  {
+    id: 'ttb-ayous-feather',
+    name: 'TT Blade Pro - Ayous Allround',
+    subtitle: 'Featherweight Precision Allround Blade',
+    badge: 'Ultra Light',
+    rating: 4.6,
+    reviewCount: 88,
+    basePrice: 50,
+    configuredPrice: 58,
+    weight: 80,
+    speed: 7.9,
+    control: 9.7,
+    stiffness: 'Soft Flex',
+    plies: '3-Ply Pure Wood',
+    thickness: '5.5 mm',
+    image: 'https://images.unsplash.com/photo-1517646287270-a5a9ca602e5c?auto=format&fit=crop&w=800&q=80',
+    description: 'Unrivaled control and maneuverability. Lightweight porous core provides maximum dwell time for placement perfection, short touch pushes, and precision blocking.',
+    defaultConfig: {
+      materialId: 'ayous',
+      handleId: 'concave',
+      designId: 'minimal',
+      colorId: 'natural',
+      layerId: '3-ply',
+      finishId: 'natural'
+    }
+  }
+];
+

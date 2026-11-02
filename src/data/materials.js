@@ -1,0 +1,110 @@
+export const WOOD_MATERIALS = [
+  {
+    id: 'koto',
+    name: 'Koto',
+    price: 0,
+    density: 0.65, // g/cm3
+    description: 'Crisp, hard African outer wood providing a direct, fast rebound. Highly favored by aggressive close-to-table loopers.',
+    speedRating: 9,
+    controlRating: 7,
+    hardness: 'Hard',
+    origin: 'West Africa',
+    baseColor: '#E8D2AC',
+    darkGrainColor: '#BFA175',
+    grainStyle: 'speckled',
+    thumbnail: 'https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?auto=format&fit=crop&w=300&q=80'
+  },
+  {
+    id: 'hinoki',
+    name: 'Hinoki',
+    price: 15,
+    density: 0.48,
+    description: 'Prized Japanese Cypress renowned for its unmatched soft touch, immense dwell time, and explosive spring-like catapult effect.',
+    speedRating: 10,
+    controlRating: 8.5,
+    hardness: 'Medium-Soft',
+    origin: 'Kiso Valley, Japan',
+    baseColor: '#E9C38B',
+    darkGrainColor: '#BA894E',
+    grainStyle: 'fine-straight',
+    thumbnail: 'https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=300&q=80'
+  },
+  {
+    id: 'walnut',
+    name: 'Walnut',
+    price: 20,
+    density: 0.70,
+    description: 'Dense, hard hardwood delivering a solid trajectory and distinct acoustic crack. Provides immense stability when counter-hitting.',
+    speedRating: 8.5,
+    controlRating: 8,
+    hardness: 'Very Hard',
+    origin: 'North America',
+    baseColor: '#5C4033',
+    darkGrainColor: '#38251C',
+    grainStyle: 'swirling',
+    thumbnail: 'https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?auto=format&fit=crop&w=300&q=80'
+  },
+  {
+    id: 'zebrano',
+    name: 'Zebrano',
+    price: 25,
+    density: 0.74,
+    description: 'Exotic zebrawood characterized by striking dark parallel stripes. Offers unmatched torsional rigidity and punchy offensive speed.',
+    speedRating: 9.5,
+    controlRating: 7.5,
+    hardness: 'Hard',
+    origin: 'Central Africa',
+    baseColor: '#DDB678',
+    darkGrainColor: '#422817',
+    grainStyle: 'bold-stripes',
+    thumbnail: 'https://images.unsplash.com/photo-1546484475-7f7bd55792da?auto=format&fit=crop&w=300&q=80'
+  },
+  {
+    id: 'limba',
+    name: 'Limba',
+    price: 10,
+    density: 0.55,
+    description: 'The golden standard of European looping blades. Exceptional spin generation with vibration dampening for high-arc topspins.',
+    speedRating: 8,
+    controlRating: 9,
+    hardness: 'Medium',
+    origin: 'Congo Basin',
+    baseColor: '#E2BD8A',
+    darkGrainColor: '#AA7F4C',
+    grainStyle: 'medium-straight',
+    thumbnail: 'https://images.unsplash.com/photo-1520690214124-2405c5217036?auto=format&fit=crop&w=300&q=80'
+  },
+  {
+    id: 'ayous',
+    name: 'Ayous',
+    price: 8,
+    density: 0.40,
+    description: 'Lightweight, resilient wood with porous cellular structure. Creates elastic flex and a deep, forgiving sweet spot.',
+    speedRating: 7.5,
+    controlRating: 9.5,
+    hardness: 'Soft',
+    origin: 'Tropical Africa',
+    baseColor: '#F0E2C8',
+    darkGrainColor: '#C4B18F',
+    grainStyle: 'porous',
+    thumbnail: 'https://images.unsplash.com/photo-1517646287270-a5a9ca602e5c?auto=format&fit=crop&w=300&q=80'
+  },
+  {
+    id: 'spruce',
+    name: 'Spruce',
+    price: 12,
+    density: 0.45,
+    description: 'Resonance tone-wood with ultra-straight grain spacing. Yields high linear feedback and supreme precision on service-receive.',
+    speedRating: 8.2,
+    controlRating: 8.8,
+    hardness: 'Medium-Soft',
+    origin: 'Central Europe',
+    baseColor: '#F5E6CA',
+    darkGrainColor: '#BBA072',
+    grainStyle: 'clean-lines',
+    thumbnail: 'https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=300&q=80'
+  }
+];
+
+export const DEFAULT_MATERIAL = WOOD_MATERIALS[1]; // Hinoki
+
